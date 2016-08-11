@@ -76,7 +76,7 @@ var Stuff = React.createClass({
       );
     }
 });
-  var App = React.createClass({
+var App = React.createClass({
   render: function() {
     return (
       <div>
@@ -98,7 +98,8 @@ var Stuff = React.createClass({
   <Router>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
-      <Route path="stuff" component={Stuff} />
+        <Route path="stuff" component={Stuff}/>
+      
       <Route path="contact" component={Contact} />
     </Route>
   </Router>,
